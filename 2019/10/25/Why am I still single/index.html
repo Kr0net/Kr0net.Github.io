@@ -1,210 +1,168 @@
+
 <!DOCTYPE html>
-<html lang>
+<html lang class="loading">
 <head><meta name="generator" content="Hexo 3.9.0">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  
-  <meta name="keywords" content="网站关键字">
-  <meta name="description" content="网站简介">
-  
-  <title>Kr0net</title>
-  
-    <!-- stylesheets list from config.yml -->
-    
-      <link rel="stylesheet" href="/css/materialize.min.css">
-    
-      <link rel="stylesheet" href="/css/main.min.css">
-    
-  
-  <style type="text/css">
-      html{
-          font-family: sans-serif;
-          font-weight: 300;
-      }
-      @font-face {
-          font-family: 'Material Icons';
-          font-style: normal;
-          font-weight: 400;
-          src: url(/fonts/MaterialIcons-Regular.eot);
-          src: url(/fonts/MaterialIcons-Regular.woff2) format('woff2'),
-          url(/fonts/MaterialIcons-Regular.woff) format('woff'),
-          url(/fonts/MaterialIcons-Regular.ttf) format('truetype')
-      }
-  </style>
-<link rel="shortcut icon" href="/source/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>为什么我还是单身？ - Kr0net</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate">
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="QQ:709356352,&amp;emsp;&amp;emsp;最近有一个好友因为追求一个女生的事情忙得不可开交，他出于对我的信任遇到某些问题向我寻求了一些帮助，我也对于此也向他提供了一些的建议。当然，虽然说是建议，但是只能说是不成熟的。,"> 
+    <meta name="author" content="Kr0net"> 
+    <link rel="alternative" href="atom.xml" title="Kr0net" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <link rel="stylesheet" href="/css/diaspora.css">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
 </head>
-<body>
-<div id="menu-box"><a href="javascript:void(0)" id="menu" data-activates="slide-out" class="button-collapse menu"><span class="nav-btn"></span></a></div>
-<div id="menu-outer">
-  <div id="menu-inner">
-      <ul id="slide-out" class="side-nav">
-    <div class="nav-header" style="background-image: url(/images/header-bg.png);background-color:#26A69A">
-    <div class="header-box"><img src="/images/header.png" ondragstart="return false;"></div>
-    <p>Kr0net</p>
-    <div class="nav-link">
-        
-        <a href="http://example.com" target="_blank"> <div class="link-box twitter"></div></a>
-        
-        
-        <a href="http://example.com" target="_blank"><div class="link-box github"></div></a>
-        
-        
-        <a href="mailto:http://example.com"><div class="link-box email"></div></a>
-        
-        
-        <a href="http://example.com" target="_blank"><div class="link-box weibo"></div></a>
-        
-        
-        <a href="http://example.com" target="_blank"> <div class="link-box zhihu"></div></a>
-        
+</html>
+<body class="loading">
+    <span id="config-title" style="display:none">Kr0net</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="icon-home image-icon" href="javascript:;" data-url="http://kr0net.com"></a>
+    <div title="播放/暂停" class="icon-play"></div>
+    <h3 class="subtitle">为什么我还是单身？</h3>
+    <div class="social">
+        <!--<div class="like-icon">-->
+            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+        <!--</div>-->
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
     </div>
-    <div class="nav-search">
-        <form id="search-form"> <!-- 搜索框相关 -->
-            <input type="text" id="local-search-input" name="q" results="0" placeholder="搜索..." class="search form-control" autocomplete="off" autocorrect="off">
-            <div class="nav-search-img"><i class="material-icons">search</i></div>
-        </form>
-        <div id="local-search-result"></div> <!-- 搜索结果区 -->
-        <p class="no-result">无搜索结果</p>
-    </div>
-</div>
-    <!--Homepage-->
-
-<li class="nav-list">
-    <a href="/" target="_self">
-        <div class="nav-ico"><i class="material-icons">home</i> </div><p>主页</p>
-    </a>
-</li>
-
-<!--archives-->
-
-<li class="nav-list dropdown-btn">
-    <a class target="_self">
-        <div class="nav-ico"><i class="material-icons">assignment</i></div><p>归档</p><div class="dropdown-ico"><i class="material-icons">arrow_drop_down</i></div>
-    </a>
-</li>
-
-<ul class="dropdown-menu dropdown">
-    <li class="nav-dropdown-list">
-        <a class="archive-link" href="/archives/2019/10/">October 2019<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2019/08/">August 2019<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2019/07/">July 2019<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2019/03/">March 2019<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2018/12/">December 2018<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2018/07/">July 2018<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2018/06/">June 2018<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2018/05/">May 2018<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2018/02/">February 2018<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2017/12/">December 2017<span class="archive-count">1</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2017/11/">November 2017<span class="archive-count">5</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2017/09/">September 2017<span class="archive-count">1</span></a>
-    </li>
-</ul>
-<!--categories-->
-
-<ul class="dropdown-menu dropdown">
-    <li class="nav-dropdown-list">
-        
-    </li>
-</ul>
-<!--tags-->
-
-<li class="nav-list">
-    <a href="/archives" target="_self">
-        <div class="nav-ico"><i class="material-icons">bookmark</i> </div><p>标签</p>
-    </a>
-</li>
-
-<!--photo-->
-
-<!--friends-->
-
-<!--about-->
-
-
-</ul>
-
-  </div>
+    <div class="scrollbar"></div>
 </div>
 
-<div id="content-outer">
-  <div id="content-inner">
-    
-<article id="post">
-  <div class="post-page-title" style="background-color:#26A69A;background-image:url(/image/WhyamIstillsingle.png)">
-  <h2>为什么我还是单身？</h2>
-    
-  <p>作者:Kr0net &nbsp&nbsp 发布于:<time datetime="2019-10-24T16:00:00.000Z">
-          2019-10-25
-    </time>
-  </p>
-    
-  </div>
-  <div class="post-page-content">
-  <p>&emsp;&emsp;最近有一个好友因为追求一个女生的事情忙得不可开交，他出于对我的信任遇到某些问题向我寻求了一些帮助，我也对于此也向他提供了一些的建议。当然，虽然说是建议，但是只能说是不成熟的。因为我在和上一任女友分手后一直保持着单身的状态，所以论情感经验而言我并不怎么丰富，至于怎么追女孩子这个就见仁见智了。在他忙着追求女生的时候，我也顺便思考了一个问题：为什么我还是单身？我首先想到的是自己的交际圈。</p>
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">为什么我还是单身？</h1>
+        <div class="stuff">
+            <span>十月 25, 2019</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <p>&emsp;&emsp;最近有一个好友因为追求一个女生的事情忙得不可开交，他出于对我的信任遇到某些问题向我寻求了一些帮助，我也对于此也向他提供了一些的建议。当然，虽然说是建议，但是只能说是不成熟的。因为我在和上一任女友分手后一直保持着单身的状态，所以论情感经验而言我并不怎么丰富，至于怎么追女孩子这个就见仁见智了。在他忙着追求女生的时候，我也顺便思考了一个问题：为什么我还是单身？我首先想到的是自己的交际圈。</p>
 <p>&emsp;&emsp;作为一个标准的理工男，无论工作或者生活中我都是孤独的，更准确的说应该说是一个孤单的状态，我经常自己一个人。从事研究工作的我周围几乎都是男生，且上班时间由于忙于手头的工作我们也很少交谈。上下班就不用说了，相对于刚刚毕业不久的我周围都是年纪比较大的女性，同龄人比较少。工作环境上是一点，再加上我不是很乐意去户外社交，在业余的时间没有什么是边挂机游戏，边看直播，边看书（别在意，我确实可以同时做这三件事）更能让我充实的事情。那么交际圈是一方面，还有呢？</p>
 <p>&emsp;&emsp;有时候我会思考谈恋爱是怎么一回事？对于男方而言，女方所呈现的娇小女儿态让男人想去“爱”护，女方所呈现的母性一面又让男人依“恋”，这一爱一恋组合起来就变成了恋爱。这个姑且算是一种解释，这样一定义，谈恋爱就是享受那种互相关心、互相爱护、互相依恋的感觉。那么这种感觉我想要拥有吗？答案是肯定的。既然我想要这种感觉，那我要不要脱离单身状态？或者说单身好不好？单身当然很好，别的不用多说了最重要的一点——自由。我单身所以我不需要向另一半付出、妥协，牺牲自己的时间和精力来为了对方去做到什么。这个很重要，现在刚刚步入社会的我需要更多的积累，读书学习。单身对于我来说刚好是一个黄金时间，所以我不介意我单身，一点也不。所以我就得出一个结论，现在正在享受单身的我正在做好积累来为未来维护这依恋关系的保障做着准备，这个是我现在单身的意义和目的。</p>
 <p>&emsp;&emsp;你可能要说了，区区单身狗怎么还这么矫情？对于这个我想我不用回答，懂得人都懂，因为无所谓。</p>
 <p>&emsp;&emsp;回过头来想想身边的这一对一对。有时候我问周边的某些女生，对于谈恋爱你怎么看？一些人的回答实际上比较“客观”：谈恋爱不就是谈恋爱而已。实际上我很能理解，为什么？因为现在很多年轻男女谈恋爱就是在互相寻找互相依赖的感觉。等到恋爱度过了热恋期到了磨合期，需要互相接受对方的优缺点的时候，分手的就是又一大片了。我身边的一部分人，谈恋爱谈的伴侣换了一个又一个，我不知道他们在经历了如此多的我喜欢你、我爱你，诸如此类的山盟海誓之后还相信什么东西。现代社会上出现“约炮”这一个“时髦”的词，除去社会浮躁肉欲横流，我想这也是一个很大的原因。当然，我不否认恋爱的美好和真实性，但是很多人在谈恋爱的时候并没有为两个人的未来做考虑。对于我来说，实际上我的生活还不安定，我还不知道自己是要选择在这座城市还是离开。等到我真的要做选择的时候，双方总会有一人毫不犹豫地选择分手。所以我不是很乐意去趟这个浑水，或者说属于我的缘分还不到。</p>
 <p>&emsp;&emsp;最后，颜狗活该单身一辈子。</p>
 
-  </div>
-  <!--评论块-->
-    
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/5146554.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/qq/001faIUs4M2zna.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
 
-</article>
-<nav class="post-nav">
-  <!-- Prev Nav -->
-    
 
-
-  <!-- Next Nav -->
-    
-  <a href="/2019/08/04/A THOUSAND SPLENDID SUNS/" id="post_nav-older" class="post-nav-content next-content">
-      旧篇
-  </a>
-    
-</nav>
-<div class="post-toc-btn"><i class="material-icons">format_list_numbered</i></div>
-<div class="post-toc-none"><p>(无)</p></div>
-<div class="post-toc-box">
+    </div>
     
 </div>
-<!--<div class="post-back"><i class="material-icons">arrow_back</i></div>-->
-<script type="text/javascript">
-    menu();
-</script>
-  </div>
+
+
+    </div>
 </div>
-<div id="bottom-outer">
-  <div id="bottom-inner">
-    <a id="top-button" onfocus="this.blur();"><div class="up upinbody" style="background-color:#26A69A"><i class="material-icons material-up">vertical_align_top</i></div></a>
-
-
-<p style="line-height: 45px">Copyright ©  2017  Kr0net</p>
-<p style="line-height: 45px">Powered by <a href="https://hexo.io/" target="_blank"> Hexo </a> && Theme - <a href="https://github.com/moumao/hexo-theme-Vateral" target="_blank">Vateral</a></p>
-
-  </div>
-</div>
-
-<!--影集界面需要的资源-->
-
-
-
-<!-- scripts list from theme config.yml -->
-
-<script src="/js/jquery-3.1.1.min.js"></script>
-
-<script src="/js/materialize.min.js"></script>
-
-<script src="/js/main.min.js"></script>
-
-
-<script>
-    NProgress.start();
-    NProgress.done();
-    lazy();
-    links();
-    window.onpopstate = menu();
-    //pjax操作
-    $(document).pjax('a:not(.nopjax)', '#content-inner', {fragment:'#content-inner', timeout:8000});
-    $(document).on('pjax:start', NProgress.start).on('pjax:end', NProgress.done)
-        .on('pjax:end', () => {
-            dowmdiv();
-            lazy();
-            toc();
-            links();
-            menu();
-        });
-</script>
-
 </body>
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/diaspora.js"></script>
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 </html>
